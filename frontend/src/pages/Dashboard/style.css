@@ -1,0 +1,58 @@
+ul.photo-shoot-list {
+  width: 100%;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  margin-bottom: 30px;
+}
+
+ul.photo-shoot-list li {
+  display: flex;
+  flex-direction: column;
+}
+
+ul.photo-shoot-list li header {
+  width: 100%;
+  height: 120px;
+  background-size: cover;
+  border-radius: 4px;
+}
+
+ul.photo-shoot-list li > .title {
+  margin-top: 10px;
+  font-size: 20px;
+  color: #444;
+}
+
+ul.photo-shoot-list li span {
+  font-size: 15px;
+  color: #999;
+}
+
+ul.notifications {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+ul.notifications li{
+  font-size: 16px;
+  line-height: 24px;
+}
+
+ul.notifications li button {
+  margin-right: 10px;
+  border: 0;
+  font-weight: bold;
+  margin-top: 10px;
+  background: none;
+  cursor: pointer;
+}
+
+ul.notifications li button.accept {
+  color: #7dda61;
+}
+
+ul.notifications li button.reject {
+  color: #df5757;
+}
